@@ -1,0 +1,105 @@
+body {
+    background: url(../images/bg.jpg)
+}
+
+.nav-wrapper {
+    margin-left: 22%;
+    margin-right: 30%;
+}
+
+nav {
+    height: 75px;
+    padding-top: 5px;
+}
+
+.content {
+    display: inline-block;
+    margin-left: 18%;
+    margin-right: 27%;
+    background: rgba(255, 255, 255, 1);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+tr {
+    background: #999b9b;
+}
+
+tr:hover {
+    background: #ccc;
+}
+
+td {
+    border: 1px solid;
+}
+
+.card-title {}
+
+nav,
+.nav-wrapper,
+.page-footer {
+    background: #000;
+}
+
+.btn {
+    background: #FB931A;
+    color: #000;
+
+}
+
+.btn:hover {
+    background: #AC3517;
+    color: #fff;
+}
+
+i {
+    /*   background: #deae0b;*/
+    background: rgba(57, 4, 109, 0);
+}
+
+.fistcard_title {
+    background: #FB931A;
+    color: #000;
+    height: 45px;
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 15pt;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.btn_buy {
+    /*    background: #FB931A;*/
+    border-radius: 0px 5px 5px 0px;
+    margin-right: -25px;
+    margin-bottom: 20px;
+    height: 45px;
+    box-shadow: none;
+}
+
+.fistcard_title:hover {
+    background: #AC3517;
+    color: #fff;
+    cursor: pointer;
+}
+
+i > .material-icons {
+    margin-top: 11px;
+}
+
+.page-footer {
+    margin-left: -6.5%;
+    width: 113%;
+}
+
+.card-content {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.formnotauth {
+    background: #ff0000;
+    color: #000;
+    font-size: 35pt;
+    border: 1px solid #fff;
+}
